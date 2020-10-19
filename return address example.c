@@ -1,3 +1,6 @@
+/* 
+gcc -fno-stack-protector -z execstack exampl3_64.c -o exampl3_64
+*/
 #include<stdio.h>
 void function(int a, int b, int c) {
    char buffer1[5];
